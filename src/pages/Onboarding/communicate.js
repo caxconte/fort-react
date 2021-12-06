@@ -1,9 +1,10 @@
+import React from 'react';
 import Button from "../../components/UI/Button/Button";
 
-const Welcome = () => {
+const Communicate = () => {
   return (
     <section>
-      <p>Welcome to FORT</p>
+      <p>Communicate to FORT</p>
       <Button
         className="btn btn-next"
         onClick={() => console.log("clicou no next")}
@@ -15,4 +16,4 @@ const Welcome = () => {
   );
 };
 
-export default Welcome;
+export default Communicate;
